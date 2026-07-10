@@ -174,7 +174,7 @@ main{
 
     inset:0;
 
-    max-height: 80vh;
+    max-height: 100vh;
     
     overflow-y: auto;
 
@@ -195,6 +195,10 @@ main{
 .popup.active{
 
     display:flex;
+    
+    max-height: 100vh;
+    
+    overflow-y: auto;
 
     animation:fade .35s;
 
